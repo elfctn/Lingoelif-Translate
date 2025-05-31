@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Konuşma balonu -->
+  <rect x="8" y="8" width="48" height="40" rx="10" fill="#F43F5E"></rect>
+  <!-- İçindeki çift yönlü ok -->
+  <path d="M20 28L30 18M30 18L40 28M30 18V38M44 36L34 46M34 46L24 36M34 46V26" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
