@@ -9,11 +9,11 @@ const App = () => {
   const translateState = useSelector((store) => store.translate);
 
   const [sourceLang, setSourceLang] = useState({
-    value: "tr",
+    value: "TR",
     label: "Turkish",
   });
   const [targetLang, setTargetLang] = useState({
-    value: "en",
+    value: "EN",
     label: "English",
   });
   const [text, setText] = useState();
