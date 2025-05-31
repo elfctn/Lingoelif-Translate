@@ -1,14 +1,14 @@
-import { createSlice } from '@reduxjs/toolkit';
-import { translateText } from '../actions';
+import { createSlice } from "@reduxjs/toolkit";
+import { translateText } from "../actions";
 
 const initialState = {
   isLoading: false,
   isError: false,
-  answer: '',
+  answer: "",
 };
 
 const translateSlice = createSlice({
-  name: 'translate',
+  name: "translate",
   initialState,
   reducers: {
     setAnswer: (state, { payload }) => {
@@ -18,7 +18,7 @@ const translateSlice = createSlice({
   extraReducers: (builder) => {
     builder.addCase(translateText.pending, (state) => {
       state.isLoading = true;
-      state.answer = '';
+      state.answer = "";
     });
     builder.addCase(translateText.fulfilled, (state, { payload }) => {
       state.isLoading = false;
